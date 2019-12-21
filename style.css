@@ -1,14 +1,14 @@
 body {
     font-family: 'Source Sans Pro', sans-serif; 
     text-align: center;
-    font-size: 25vh;
+    font-size: 200%;
     width: 100%;
     height:100vh;
     color: white;
     background-color: black;
     background-image: url(https://i.pinimg.com/originals/d9/e4/3e/d9e43e121ab87616fa61192905dad148.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 #counter{
     
@@ -22,4 +22,15 @@ body {
     width:50%;
     margin:auto;
     background-color: none;
+}
+
+@media only screen and (max-width: 1000px){
+    
+body{
+    font-size:500%;
+}
+    #reasonDisplay{
+        width:80%;
+    }
+    
 }
