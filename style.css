@@ -27,7 +27,7 @@ body {
 @media only screen and (max-width: 1000px){
     
 body{
-    font-size:450%;
+    font-size:400%;
 }
     #reasonDisplay{
         width:80%;
