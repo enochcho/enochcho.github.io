@@ -9,7 +9,6 @@ body {
     background-image: url(https://i.pinimg.com/originals/d9/e4/3e/d9e43e121ab87616fa61192905dad148.jpg);
     background-size:cover;
     background-repeat: repeat-y;
-    padding: 100px;
 }
 #counter{
     
@@ -31,6 +30,9 @@ body{
     font-size:400%;
 }
     #reasonDisplay{
+        width:80%;
+    }
+    #counter{
         width:80%;
     }
     
