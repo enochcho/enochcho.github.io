@@ -105,7 +105,7 @@ var count = 0;
 
 function getReason(){
   var randomNumber = Math.floor(Math.random() * (reasons.length-1));
-  document.getElementById('reasonDisplay').innerHTML = 'Reason #' + (randomNumber+1) + ': ' +reasons[randomNumber];  
+  document.getElementById('reasonDisplay').innerHTML = 'Reason #' + randomNumber + ': ' +reasons[randomNumber];  
     
     
   var days= moment().diff("2019-09-12", "days");

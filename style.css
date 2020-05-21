@@ -8,10 +8,15 @@ body {
     background-color: black;
     background-image: url(https://i.pinimg.com/originals/d9/e4/3e/d9e43e121ab87616fa61192905dad148.jpg);
     background-size:cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 #counter{
     
+}
+
+#pic{
+    width:30%;
+
 }
 
 
@@ -27,12 +32,9 @@ body {
 @media only screen and (max-width: 1000px){
     
 body{
-    font-size:400%;
+    font-size:500%;
 }
     #reasonDisplay{
-        width:80%;
-    }
-    #counter{
         width:80%;
     }
     
