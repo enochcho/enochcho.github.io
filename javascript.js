@@ -110,7 +110,7 @@ function getReason(){
     
   var days= moment("2023-02-18").diff("2019-09-12", "days");
     days++;
-    document.getElementById('counter').innerHTML="We lasted " + days +" days. I was really happy with you.";
+    document.getElementById('counter').innerHTML="We lasted " + days +" days. I was really happy with you. I'm sorry that I didn't treat you better. Thank you for everything. ";
 }
 
 function secret(){
