@@ -108,7 +108,7 @@ function getReason(){
   document.getElementById('reasonDisplay').innerHTML = 'Reason #' + randomNumber + ': ' +reasons[randomNumber];  
     
     
-  var days= moment().diff("2019-09-12", "days");
+  var days= moment("2023-02-18").diff("2019-09-12", "days");
     document.getElementById('counter').innerHTML="Happy " + days +" Days!!";
 }
 
