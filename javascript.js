@@ -109,7 +109,7 @@ function getReason(){
     
     
   var days= moment("2019-09-12").diff("2019-09-12", "days");
-    document.getElementById('counter').innerHTML="Happy " + days +" Days!!";
+    document.getElementById('counter').innerHTML="We lasted " + days +" Days!!";
 }
 
 function secret(){
