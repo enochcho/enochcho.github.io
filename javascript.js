@@ -108,8 +108,9 @@ function getReason(){
   document.getElementById('reasonDisplay').innerHTML = 'Reason #' + randomNumber + ': ' +reasons[randomNumber];  
     
     
-  var days= moment("2019-09-12").diff("2019-09-12", "days");
-    document.getElementById('counter').innerHTML="We lasted " + days +" Days!!";
+  var days= moment("2023-02-18").diff("2019-09-12", "days");
+    days++;
+    document.getElementById('counter').innerHTML="We lasted " + days +" days. I was really happy with you.";
 }
 
 function secret(){
